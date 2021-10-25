@@ -43,7 +43,7 @@ input[type=password]{
 div:nth-of-type(3) p{
     background-color: pink;
 }
-/* 12 - Fes que el 2n <em> dins el <p> amb id "loremIpsum" tingui un border de 5px negre amb punts */
+/* 12 - Fes que el 2n <em> dins el <p> amb id "loremImpsum" tingui un border de 5px negre amb punts */
 em:nth-of-type(2) p:nth-of-type(1) #loremImpsum{
     border: 5px solid black;
 }
