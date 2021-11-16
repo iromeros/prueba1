@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap%22");
+
+.wrapper
+{
+	padding-bottom: 30px;
+}
+
+.divider
+{
+	position: relative;
+    margin-top: 40px;
+	height: 1px;
+}
+
+.div-transparent:before
+{
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 5%;
+	right: 5%;
+	width: 90%;
+	height: 1px;
+	background-image: linear-gradient(to right, transparent, rgb(48,49,51), transparent);
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.caja_principal{
+    border: 10px solid #bdc3c7;
+    margin: 0 auto;
+    width: 60%;
+    padding-left: 10px;
+}
+
+nav{
+    margin-top: 10px;
+    padding: none;
+    margin-left: 5%;
+}
+
+.cajas{
+    list-style-type: none;
+    overflow: hidden;
+    align-content: center;
+}
+
+li{
+    float: left;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: auto;
+    padding-right: auto;
+    width: 20%;
+    background-color: lightgrey;
+    text-align: center;
+    transition: 0.4s;
+    margin-right: 5px;
+    margin-left: auto;
+    align-content: center;
+   
+}
+
+li a{
+    color: black;
+    text-decoration: none;
+}
+
+li:hover{
+    background-color: lightgrey;
+}
+
+h1{
+    color: #3498db;
+}
+
+.introduccion{
+    border-left: 3px solid grey;
+}
+h2{
+    font: black;
+}
+
+.noticies{
+    margin-left: 20px;
+    margin-right: 20px;
+}
