@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Formulario de Registro</h1>
+    <div>
+        <form action="registro.html" method="get">
+            <label for="Nombre">Nombre:</label>
+            <input id="Nombre" type="text" name="Nombre" required placeholder="Introduce tu nombre" size="20"
+                maxlength="20">
+            <label for="Apellidos">Apellidos</label>
+            <input id="Apellidos" type="text" name="Apellidos:" required placeholder="Introduce tus apellidos" size="40"
+                maxlength="40">
+
+            <br>
+
+            <label>Sexo:</label>
+            <input type="radio" id="Hombre" name="Sexo" value="H">
+            <label for="Hombre">Hombre</label>
+            
+            <input type="radio" id="Mujer" name="Sexo" value="M">
+            <label for="Mujer">Mujer</label>
+
+           <input type="radio" id="Otro" name="Sexo" value="O">
+            <label for="Otro">Otros</label>
+            <select id="SeleccionarSexo">
+                <option>Si,Grácias</option>
+                <option>Jugador LOL</option>
+                <option>Pikachu</option>
+                <option>12</option>
+            </select>
+
+            <br>
+
+            <label for="Email">Email</label>
+            <input for="Email" id="Email:" name="Email" required placeholder="Introduce tu Email" size="20" maxlength="50">
+            <label for="Contraseña:">Contraseña</label>
+            <input type="password" id="Contraseña" name="Contraseña" required placeholder="Introduce tu contraseña" size="10" maxlength="10">
+            
+            <br>
+            
+            <label for="Fecha nacimiento">Fecha nacimiento</label>
+            <input type="date" id="Fecha nacimiento" name="Fecha nacimeinto" required>
+
+            <br>
+
+            <label for="Estoy de acuerdo con los términos y condiciones">Estoy de acuerdo con los terminos y condiciones</label>
+            <input type="checkbox" id="De acuerdo"  name="De acuerdo" required value="S">
+
+            <br>
+
+            <input type="submit">
+        </form>
+    </div>
+</body>
+
+</html>
